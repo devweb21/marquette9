@@ -1,0 +1,266 @@
+
+body{
+width: 100%;
+height:100%;
+margin: 0;
+padding: 0;
+background-color:
+#efebe9;
+}
+main{
+width: 95%;
+height: 100%;
+margin-left:2px;
+margin-right:2px;
+margin: auto;
+background-color:
+#fafafa;
+/*border: 1px solid;*/
+border-radius:20px;
+}
+header{
+    width:100%;
+    height:90px;
+    /*border: 1px solid;*/
+    /*background-color: hotpink;*/
+    display: flex;
+}
+section aside{
+    height: 150px;
+    background-color: #f5f5f5;
+}
+.icone{
+    width: 150px;
+    height: 20px;
+    margin-top: 14px;
+}
+ul{
+    display: flex;
+   /* border: solid 1px;*/
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: auto;
+    margin-top:10px;
+    height: 60px;
+    /*text-align: center;*/
+}
+.click{
+    /*margin-left: 70px;*/
+    margin-top:20px;
+    /*border: solid;*/
+    margin-right:100px;
+}
+nav{
+   /*border: solid red;*/
+    width: 100%;
+    display: flex;
+}
+.entete{
+    font-size:25px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top:8px;
+    margin-left:65px;
+   /* border: solid;*/
+    padding-top:10px;
+    
+}
+ul li{
+    list-style: none;
+    padding: 11px;
+    font-size:18px;
+    margin-bottom: 15px;
+    color:
+    #bdbdbd;
+   /* margin-left: 10px; */ 
+}
+li:hover{
+    color:white;
+}
+button{
+    border: 1px solid;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    border-radius:5px;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+a:hover {
+    color: hotpink;
+  }
+a{
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+     }
+.lieu{
+    width: 30px;
+    height: 30px;
+}
+section{
+    display: flex;
+    width:100%;
+    height:300px
+   /* border: 1px solid;*/
+    background-color:#fafafa;
+
+}
+aside{
+    width: 40%;
+   /* margin:15px;*/
+    height:300px;
+    text-align: center;
+   /* border: solid;*/
+}
+
+aside img{
+    padding-top: 45px;
+    color:#fafafa;
+    opacity: 0.4;
+   /* margin-left:35px;*/
+    /*border: solid;*/
+}
+.sect-gauche{
+width:40%;
+height:400px;
+margin-left:15px;
+margin-right:15px;
+margin: auto;
+text-align:justify;
+/*border: solid;*/
+}
+.sect-gauche h1{
+    font-size:48px;
+}
+.sect-gauche p{
+   color:#bdb4b1;
+   font-size: 16px;
+}
+.bule{
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #757775;
+    margin:5px;
+    margin-bottom: 18px;
+}
+.sect-droite{
+    margin: 15px;
+    margin-left:15px;
+    margin-right:15px;
+    margin: auto;
+    height: 400px;
+  /* border: solid;*/
+    width: 40%;
+    text-align: center;
+}
+.arriere-image{
+    background-image:url(Age-Glace.jpg);
+    background-size:cover;
+    margin-left:8px;
+    margin-right:8px;
+    margin: auto;
+    background-repeat: no-repeat;
+    border-radius:50% 50% 0 0;
+    width:70%;
+    height:90%;
+    margin-right:18px;
+    margin-top:10%;
+    /*border: solid;*/
+    /*display:flex;*/
+    /*flex-direction:column;*/
+    
+}
+.glace{
+    width: 50px;
+    height: 50px;
+    border-radius:15px;
+    box-shadow:4px 4px 4px 4px   
+#e0e0e0;
+}
+.family{
+display: flex;
+background-color:white;
+width: 140px;
+height: 60px;
+border-radius:8px;
+margin-left: 200px;
+margin-top:-40px;
+
+}
+.montagne{
+display: flex;
+background-color:white;
+width: 140px;
+height: 60px;
+border-radius:8px;
+position:relative;
+margin-top:150px;
+margin-left:80px;
+}
+.sapin{
+
+display: flex;
+background-color:white;
+width: 140px;
+height: 60px;
+border-radius:8px;
+/*margin-right: 12px;*/
+
+}
+.bloc-g{
+    display:flex;
+    flex-wrap: wrap;
+    /*border: 1px solid;*/
+    margin:10px;
+    text-align: center;   
+}
+
+
+.bloc-bg2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:10px;
+   /* border: 1px solid;*/
+    text-align: center;
+   
+
+}
+
+
+.bloc{
+    width: 200px ;
+    height: 150px;
+    background-color:#fafafa;
+   /* border: 1px solid;*/
+    margin: 15px;
+    border-radius: 5px;
+}
+.bloc p{
+    color:#bdb4b1;
+    font-size: 16px;
+    font-family: arial; 
+}
+.blanc{
+    width: 200px ;
+    height: 150px;
+    box-shadow:10px 10px 10px#f3efed;
+   /* border: 1px solid;*/
+    margin: 15px;
+    border-radius: 5px;
+    background-color: white; 
+}
+.blanc img{
+    margin-right:110px;  
+}
+
+.bloc img{
+    margin-right:110px;
+}
